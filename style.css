@@ -26,7 +26,7 @@ button.nav-btn {
 }
 .header-div{
     background-color: #2B2922;
-    color: #fff;
+    
 }
 
 .navbar-log {
@@ -45,6 +45,10 @@ ul.nav-items {
 li.nav-links {
     padding: 0 15px;
     font-size: 20px;
+    color: #85837B;
+}
+li.nav-links.active,li.nav-links:hover,.hero-leftdiv h1 {
+    color: #fff;
 }
 
 .nav-menusdiv {
@@ -69,6 +73,7 @@ li.nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #85837B;
 }
 
 
